@@ -18,7 +18,7 @@ export function useFetch(fetchFn, initialValue) {
           setIsFetching(false);
         }
     
-        fetchedData();
+        fetchData();
       }, [fetchFn]);
 
       return {
